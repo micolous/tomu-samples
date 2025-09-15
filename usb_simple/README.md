@@ -18,8 +18,8 @@ If you want to be able to reflash this, you need to [short the two outer pads on
 The `usbtest.py` script in this directory may be used to control the LED with [`pyusb`][pyusb] and
 `libusb`.
 
-If you're running Windows, [you'll _also_ need to assign the `WinUsb` driver](#windows-driver) to
-the Tomu Simple USB to make it work.
+If you're running Windows, you'll _also_ need to install `libusb-package` with `pip` and
+[assign the `WinUsb` driver](#windows-driver) to the Tomu Simple USB to make it work.
 
 Linux and macOS do not require any drivers.
 
